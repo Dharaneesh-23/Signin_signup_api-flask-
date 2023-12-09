@@ -1,0 +1,18 @@
+\\To create a database
+CREATE DATABASE flask_db;
+
+\\Use the database
+USE flask_db;
+
+\\Create table users for the user credentials
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    password VARCHAR(200) NOT NULL
+);
+
+\\queries used in database.py file
+"INSERT INTO users (username, email, password) VALUES (%s, %s, %s)", (username,mail,password)
+"SELECT * FROM users WHERE username = %s OR email = %s", (username, username)
+"SELECT username,email FROM users WHERE username = %s AND email = %s",(username,mail)
