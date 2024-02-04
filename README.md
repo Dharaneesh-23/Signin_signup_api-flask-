@@ -59,9 +59,12 @@ This Flask application provides API endpoints for user signup and sign-in functi
           "email": "user@example.com",
           "password": "securepassword"
          }
-     *![Signup image](https://github.com/Dharaneesh-23/Signin_signup_api-flask-/blob/main/images/signup.png)
 
-     *![Credentials Exists](https://github.com/Dharaneesh-23/Signin_signup_api-flask-/blob/main/images/credentials%20exits.png)
+     * Signup image
+      ![Signup image](https://github.com/Dharaneesh-23/Signin_signup_api-flask-/blob/main/images/signup.png)
+
+     * Credentials Exists
+       ![Credentials Exists](https://github.com/Dharaneesh-23/Signin_signup_api-flask-/blob/main/images/credentials%20exits.png)
      
    - Sign In API Endpoint:
      * Endpoint: /signin
