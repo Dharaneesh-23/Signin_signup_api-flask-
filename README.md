@@ -47,10 +47,7 @@ This Flask application provides API endpoints for user signup and sign-in functi
    
 ## Postman Test and Documentation
 
-1. **Watch the video:**
-   View the demonstration video in 'dharaneesh_invictusInterrn.mp4' to see the functionality of the APIs.
-
-2. **API Documentation:**
+3. **API Documentation:**
    Detailed instructions on API usage can be found below:
    - Signup API Endpoint:
      * Endpoint: /signup
@@ -62,6 +59,10 @@ This Flask application provides API endpoints for user signup and sign-in functi
           "email": "user@example.com",
           "password": "securepassword"
          }
+     *![Signup image](https://github.com/Dharaneesh-23/Signin_signup_api-flask-/blob/main/images/signup.png)
+
+     *![Credentials Exists](https://github.com/Dharaneesh-23/Signin_signup_api-flask-/blob/main/images/credentials%20exits.png)
+     
    - Sign In API Endpoint:
      * Endpoint: /signin
      * Method: POST
@@ -71,6 +72,7 @@ This Flask application provides API endpoints for user signup and sign-in functi
           "username_email": "example_user",
           "password": "securepassword"
          }
+    *![Signup image](https://github.com/Dharaneesh-23/Signin_signup_api-flask-/blob/main/images/login.png)
 
 
 ## Security Measures
@@ -78,6 +80,8 @@ This Flask application provides API endpoints for user signup and sign-in functi
 * User passwords are hashed using the SHA-256 algorithm before storing them in the database.
 
 * API endpoints use secure communication over HTTPS.
+
+* 
 
 ## License
 This project is licensed under the MIT License. Copyright © 2023 Dharaneesh-23.
