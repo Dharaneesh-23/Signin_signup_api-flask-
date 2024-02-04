@@ -43,6 +43,7 @@ This Flask application provides API endpoints for user signup and sign-in functi
 
 1. **Create a MySQL database:**
    Read the 'queries.txt' file complete setup of the database and the table.
+   ![Table structure](https://github.com/Dharaneesh-23/Signin_signup_api-flask-/blob/main/images/database.png)
    
 ## Postman Test and Documentation
 
